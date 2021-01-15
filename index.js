@@ -1,5 +1,5 @@
 function main(args) {
-  console.log(args);
+  console.log("Hello", args);
 }
 
 main();
