@@ -8,3 +8,6 @@ myFunction.doWithArgs(
 
 // Here I'm going to add a third import to see if it handles the commas right
 import { foo, bar, baz } from "library";
+
+// Here I will change the args
+const result = doSomethingWith(ArgOne, ArgTwo);
