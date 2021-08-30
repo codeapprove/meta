@@ -2,7 +2,8 @@
  * This is main
  */
 function main(args) {
-  console.info(args);
+  console.log("Hello", args);
 }
 
+// Call main
 main();
