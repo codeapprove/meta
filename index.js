@@ -1,5 +1,8 @@
+/**
+ * This is main
+ */
 function main(args) {
-  console.log(args);
+  console.info(args);
 }
 
 main();
