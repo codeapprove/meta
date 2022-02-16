@@ -20,6 +20,7 @@ function barBaz(q, z) {
 }
 
 function bizBom(a, b) {
+  console.log("bizBom");
   const c = a + b;
   return c;
 }
