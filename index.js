@@ -15,4 +15,9 @@ function barBaz(q, z) {
   return a;
 }
 
+function bizBom(a, b) {
+  const c = a + b;
+  return c;
+}
+
 main();
