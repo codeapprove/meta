@@ -10,3 +10,4 @@ files = os.listdir(path)
 # Print the content of the directory
 for file in files:
     print(file)
+    print('done')
