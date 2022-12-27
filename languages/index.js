@@ -263,6 +263,7 @@ function interpolate(template, replacements, syntax){
  * Pad string with `char` if its' length is smaller than `minLen`
  */
 function rpad(str, minLen, ch) {
+  // Add a commment
   ch = ch || ' ';
   return (str.length < minLen)? str + repeat(ch, minLen - str.length) : str;
 }
