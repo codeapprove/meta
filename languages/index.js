@@ -282,7 +282,7 @@ function lpad(str, minLen, ch) {
 * Repeat string n times
 */
 function repeat(str, n){
-  // Add another comment
+  // Add another comment ok
   return (new Array(n + 1)).join(str);
 }
 
