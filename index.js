@@ -19,4 +19,10 @@ function barBaz(q, z) {
   return a;
 }
 
+function bizBom(a, b) {
+  console.log("bizBom");
+  const c = a + b;
+  return c;
+}
+
 main();
