@@ -263,6 +263,7 @@ function interpolate(template, replacements, syntax){
  * Pad string with `char` if its' length is smaller than `minLen`
  */
 function rpad(str, minLen, ch) {
+  // Add a commment
   ch = ch || ' ';
   return (str.length < minLen)? str + repeat(ch, minLen - str.length) : str;
 }
@@ -281,6 +282,7 @@ function lpad(str, minLen, ch) {
 * Repeat string n times
 */
 function repeat(str, n){
+  // Add another comment ok
   return (new Array(n + 1)).join(str);
 }
 
